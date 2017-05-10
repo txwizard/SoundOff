@@ -1,0 +1,256 @@
+ SoundOff
+
+ Timestamp is 5911793e (Tue May 09 03:09:34 2017)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000009e4H .text$mn                CODE
+ 0002:00000000 000000d4H .idata$5                DATA
+ 0002:000000d4 00000004H .CRT$XCA                DATA
+ 0002:000000d8 00000004H .CRT$XCAA               DATA
+ 0002:000000dc 00000004H .CRT$XCZ                DATA
+ 0002:000000e0 00000004H .CRT$XIA                DATA
+ 0002:000000e4 00000004H .CRT$XIAA               DATA
+ 0002:000000e8 00000004H .CRT$XIC                DATA
+ 0002:000000ec 00000004H .CRT$XIY                DATA
+ 0002:000000f0 00000004H .CRT$XIZ                DATA
+ 0002:00000100 00000088H .rdata                  DATA
+ 0002:00000188 0000008cH .rdata$debug            DATA
+ 0002:00000220 00000004H .rdata$sxdata           DATA
+ 0002:00000224 00000004H .rtc$IAA                DATA
+ 0002:00000228 00000004H .rtc$IZZ                DATA
+ 0002:0000022c 00000004H .rtc$TAA                DATA
+ 0002:00000230 00000004H .rtc$TZZ                DATA
+ 0002:00000238 0000005cH .xdata$x                DATA
+ 0002:00000294 00000000H .edata                  DATA
+ 0002:00000294 00000078H .idata$2                DATA
+ 0002:0000030c 00000014H .idata$3                DATA
+ 0002:00000320 000000d4H .idata$4                DATA
+ 0002:000003f4 000003a0H .idata$6                DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000018 00000364H .bss                    DATA
+ 0004:00000000 00000268H .rsrc$01                DATA
+ 0004:00000270 00002f08H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       _SOff_ReportLoadStringError@12 00401000 f   SOff_ReportLoadStringError.obj
+ 0001:000000a0       _wmain                     004010a0 f   SoundOff.obj
+ 0001:000001b4       @__security_check_cookie@4 004011b4 f   MSVCRT:secchk.obj
+ 0001:0000042c       _wmainCRTStartup           0040142c f   MSVCRT:wcrtexe.obj
+ 0001:00000436       ___raise_securityfailure   00401436 f   MSVCRT:gs_report.obj
+ 0001:00000473       ___report_gsfailure        00401473 f   MSVCRT:gs_report.obj
+ 0001:0000056e       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 0040156e f   MSVCRT:unhandld.obj
+ 0001:000005af       ___CxxSetUnhandledExceptionFilter 004015af f   MSVCRT:unhandld.obj
+ 0001:000005be       __XcptFilter               004015be f   MSVCRT:MSVCR120.dll
+ 0001:000005c4       __amsg_exit                004015c4 f   MSVCRT:MSVCR120.dll
+ 0001:000005d0       __FindPESection            004015d0 f   MSVCRT:pesect.obj
+ 0001:00000620       __IsNonwritableInCurrentImage 00401620 f   MSVCRT:pesect.obj
+ 0001:000006e0       __ValidateImageBase        004016e0 f   MSVCRT:pesect.obj
+ 0001:00000711       ___security_init_cookie    00401711 f   MSVCRT:gs_support.obj
+ 0001:000007ad       __matherr                  004017ad f   MSVCRT:merr.obj
+ 0001:000007ad       __wsetargv                 004017ad f   MSVCRT:wdllargv.obj
+ 0001:000007b0       ___atonexitinit            004017b0 f   MSVCRT:atonexit.obj
+ 0001:000007ec       __onexit                   004017ec f   MSVCRT:atonexit.obj
+ 0001:00000895       _atexit                    00401895 f   MSVCRT:atonexit.obj
+ 0001:000008aa       __RTC_Initialize           004018aa f   MSVCRT:initsect.obj
+ 0001:000008ca       __RTC_Terminate            004018ca f   MSVCRT:initsect.obj
+ 0001:000008ea       __setdefaultprecision      004018ea f   MSVCRT:fp8.obj
+ 0001:00000912       __initterm_e               00401912 f   MSVCRT:MSVCR120.dll
+ 0001:00000918       __initterm                 00401918 f   MSVCRT:MSVCR120.dll
+ 0001:00000920       __SEH_prolog4              00401920 f   MSVCRT:sehprolg4.obj
+ 0001:00000965       __SEH_epilog4              00401965 f   MSVCRT:sehprolg4.obj
+ 0001:00000979       __except_handler4          00401979 f   MSVCRT:chandler4gs.obj
+ 0001:0000099c       __crt_debugger_hook        0040199c f   MSVCRT:MSVCR120.dll
+ 0001:000009a2       ___crtUnhandledException   004019a2 f   MSVCRT:MSVCR120.dll
+ 0001:000009a8       ___crtTerminateProcess     004019a8 f   MSVCRT:MSVCR120.dll
+ 0001:000009ae       ?terminate@@YAXXZ          004019ae f   MSVCRT:MSVCR120.dll
+ 0001:000009b4       ___crtSetUnhandledExceptionFilter 004019b4 f   MSVCRT:MSVCR120.dll
+ 0001:000009ba       __lock                     004019ba f   MSVCRT:MSVCR120.dll
+ 0001:000009c0       __unlock                   004019c0 f   MSVCRT:MSVCR120.dll
+ 0001:000009c6       ___dllonexit               004019c6 f   MSVCRT:MSVCR120.dll
+ 0001:000009cc       __invoke_watson            004019cc f   MSVCRT:MSVCR120.dll
+ 0001:000009d2       __controlfp_s              004019d2 f   MSVCRT:MSVCR120.dll
+ 0001:000009d8       __except_handler4_common   004019d8 f   MSVCRT:MSVCR120.dll
+ 0001:000009de       _IsProcessorFeaturePresent@4 004019de f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__FB_FormatMessageW   00402000     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000004       __imp__FB_FormatMessage2W  00402004     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000008       __imp__FB_LoadStringW      00402008     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:0000000c       __imp__FB_GetSprintFBufferW 0040200c     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000010       __imp__FB_GetlpResourceBufferW 00402010     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000014       \177FixedStringBuffers_NULL_THUNK_DATA 00402014     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000018       __imp__GetSystemTimeAsFileTime@4 00402018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetCurrentThreadId@0 0040201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetCurrentProcessId@0 00402020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__QueryPerformanceCounter@4 00402024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__GetLastError@0      00402028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__SetLastError@4      0040202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__IsProcessorFeaturePresent@4 00402030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__IsDebuggerPresent@0 00402034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__EncodePointer@4     00402038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__DecodePointer@4     0040203c     kernel32:KERNEL32.dll
+ 0002:00000040       \177KERNEL32_NULL_THUNK_DATA 00402040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp___XcptFilter         00402044     MSVCRT:MSVCR120.dll
+ 0002:00000048       __imp___amsg_exit          00402048     MSVCRT:MSVCR120.dll
+ 0002:0000004c       __imp____wgetmainargs      0040204c     MSVCRT:MSVCR120.dll
+ 0002:00000050       __imp____set_app_type      00402050     MSVCRT:MSVCR120.dll
+ 0002:00000054       __imp__exit                00402054     MSVCRT:MSVCR120.dll
+ 0002:00000058       __imp___exit               00402058     MSVCRT:MSVCR120.dll
+ 0002:0000005c       __imp___cexit              0040205c     MSVCRT:MSVCR120.dll
+ 0002:00000060       __imp___configthreadlocale 00402060     MSVCRT:MSVCR120.dll
+ 0002:00000064       __imp____setusermatherr    00402064     MSVCRT:MSVCR120.dll
+ 0002:00000068       __imp__wprintf             00402068     MSVCRT:MSVCR120.dll
+ 0002:0000006c       __imp___initterm           0040206c     MSVCRT:MSVCR120.dll
+ 0002:00000070       __imp____winitenv          00402070     MSVCRT:MSVCR120.dll
+ 0002:00000074       __imp___fmode              00402074     MSVCRT:MSVCR120.dll
+ 0002:00000078       __imp___commode            00402078     MSVCRT:MSVCR120.dll
+ 0002:0000007c       __imp___crt_debugger_hook  0040207c     MSVCRT:MSVCR120.dll
+ 0002:00000080       __imp____crtUnhandledException 00402080     MSVCRT:MSVCR120.dll
+ 0002:00000084       __imp____crtTerminateProcess 00402084     MSVCRT:MSVCR120.dll
+ 0002:00000088       __imp_?terminate@@YAXXZ    00402088     MSVCRT:MSVCR120.dll
+ 0002:0000008c       __imp____crtSetUnhandledExceptionFilter 0040208c     MSVCRT:MSVCR120.dll
+ 0002:00000090       __imp___lock               00402090     MSVCRT:MSVCR120.dll
+ 0002:00000094       __imp___unlock             00402094     MSVCRT:MSVCR120.dll
+ 0002:00000098       __imp___calloc_crt         00402098     MSVCRT:MSVCR120.dll
+ 0002:0000009c       __imp____dllonexit         0040209c     MSVCRT:MSVCR120.dll
+ 0002:000000a0       __imp___onexit             004020a0     MSVCRT:MSVCR120.dll
+ 0002:000000a4       __imp___invoke_watson      004020a4     MSVCRT:MSVCR120.dll
+ 0002:000000a8       __imp___controlfp_s        004020a8     MSVCRT:MSVCR120.dll
+ 0002:000000ac       __imp___except_handler4_common 004020ac     MSVCRT:MSVCR120.dll
+ 0002:000000b0       __imp___swprintf           004020b0     MSVCRT:MSVCR120.dll
+ 0002:000000b4       __imp___initterm_e         004020b4     MSVCRT:MSVCR120.dll
+ 0002:000000b8       \177MSVCR120_NULL_THUNK_DATA 004020b8     MSVCRT:MSVCR120.dll
+ 0002:000000bc       __imp__AnnounceMeToCRTPNW_WW@12 004020bc     P6VersionInfo32:P6VersionInfo32.dll
+ 0002:000000c0       \177P6VersionInfo32_NULL_THUNK_DATA 004020c0     P6VersionInfo32:P6VersionInfo32.dll
+ 0002:000000c4       __imp__LoadStringW@16      004020c4     user32:USER32.dll
+ 0002:000000c8       \177USER32_NULL_THUNK_DATA 004020c8     user32:USER32.dll
+ 0002:000000cc       __imp__PlaySoundW@12       004020cc     Winmm:WINMM.dll
+ 0002:000000d0       \177WINMM_NULL_THUNK_DATA  004020d0     Winmm:WINMM.dll
+ 0002:000000d4       ___xc_a                    004020d4     MSVCRT:cinitexe.obj
+ 0002:000000dc       ___xc_z                    004020dc     MSVCRT:cinitexe.obj
+ 0002:000000e0       ___xi_a                    004020e0     MSVCRT:cinitexe.obj
+ 0002:000000f0       ___xi_z                    004020f0     MSVCRT:cinitexe.obj
+ 0002:00000140       __load_config_used         00402140     MSVCRT:loadcfg.obj
+ 0002:00000220       ___safe_se_handler_table   00402220     <linker-defined>
+ 0002:00000224       ___rtc_iaa                 00402224     MSVCRT:initsect.obj
+ 0002:00000228       ___rtc_izz                 00402228     MSVCRT:initsect.obj
+ 0002:0000022c       ___rtc_taa                 0040222c     MSVCRT:initsect.obj
+ 0002:00000230       ___rtc_tzz                 00402230     MSVCRT:initsect.obj
+ 0002:00000294       __IMPORT_DESCRIPTOR_FixedStringBuffers 00402294     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:000002a8       __IMPORT_DESCRIPTOR_P6VersionInfo32 004022a8     P6VersionInfo32:P6VersionInfo32.dll
+ 0002:000002bc       __IMPORT_DESCRIPTOR_WINMM  004022bc     Winmm:WINMM.dll
+ 0002:000002d0       __IMPORT_DESCRIPTOR_KERNEL32 004022d0     kernel32:KERNEL32.dll
+ 0002:000002e4       __IMPORT_DESCRIPTOR_USER32 004022e4     user32:USER32.dll
+ 0002:000002f8       __IMPORT_DESCRIPTOR_MSVCR120 004022f8     MSVCRT:MSVCR120.dll
+ 0002:0000030c       __NULL_IMPORT_DESCRIPTOR   0040230c     FixedStringBuffers:FixedStringBuffers.dll
+ 0003:00000000       ___security_cookie         00403000     MSVCRT:gs_cookie.obj
+ 0003:00000004       ___security_cookie_complement 00403004     MSVCRT:gs_cookie.obj
+ 0003:00000008       ___defaultmatherr          00403008     MSVCRT:merr.obj
+ 0003:00000010       ___globallocalestatus      00403010     MSVCRT:xthdloc.obj
+ 0003:00000014       ___native_dllmain_reason   00403014     MSVCRT:natstart.obj
+ 0003:00000358       __commode                  00403358     MSVCRT:xncommod.obj
+ 0003:0000035c       __dowildcard               0040335c     MSVCRT:wildcard.obj
+ 0003:00000360       __newmode                  00403360     MSVCRT:_newmode.obj
+ 0003:00000364       __fmode                    00403364     MSVCRT:xtxtmode.obj
+ 0003:00000368       ___native_startup_lock     00403368     <common>
+ 0003:0000036c       ___native_startup_state    0040336c     <common>
+ 0003:00000370       ___onexitend               00403370     <common>
+ 0003:00000374       ___onexitbegin             00403374     <common>
+ 0003:00000378       ___dyn_tls_init_callback   00403378     <common>
+
+ entry point at        0001:0000042c
+
+ Static symbols
+
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     FixedStringBuffers:FixedStringBuffers.dll
+ 0000:ffff7000       .debug$S                   00400000     FixedStringBuffers:FixedStringBuffers.dll
+ 0000:ffff7000       .debug$S                   00400000     FixedStringBuffers:FixedStringBuffers.dll
+ 0000:ffff7000       .debug$S                   00400000     FixedStringBuffers:FixedStringBuffers.dll
+ 0000:ffff7000       .debug$S                   00400000     FixedStringBuffers:FixedStringBuffers.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     P6VersionInfo32:P6VersionInfo32.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     Winmm:WINMM.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     user32:USER32.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0000:ffff7000       .debug$S                   00400000     MSVCRT:MSVCR120.dll
+ 0001:000001c3       _pre_c_init                004011c3 f   MSVCRT:wcrtexe.obj
+ 0001:0000027c       _pre_cpp_init              0040127c f   MSVCRT:wcrtexe.obj
+ 0001:000002c7       ___tmainCRTStartup         004012c7 f   MSVCRT:wcrtexe.obj
+ 0001:00000920       $$000000                   00401920     MSVCRT:sehprolg4.obj
+ 0002:000000d8       _pcppinit                  004020d8     MSVCRT:wcrtexe.obj
+ 0002:000000e4       _pcinit                    004020e4     MSVCRT:wcrtexe.obj
+ 0002:000000e8       _pinit                     004020e8     MSVCRT:atonexit.obj
+ 0002:000000ec       _pinit                     004020ec     MSVCRT:wcrtexe.obj
+ 0002:00000138       _GS_ExceptionPointers      00402138     MSVCRT:gs_report.obj
+ 0002:00000238       __sehtable$___tmainCRTStartup 00402238     MSVCRT:wcrtexe.obj
+ 0002:00000258       __sehtable$__IsNonwritableInCurrentImage 00402258     MSVCRT:pesect.obj
+ 0002:00000278       __sehtable$__onexit        00402278     MSVCRT:atonexit.obj
+ 0002:00000462       .idata$6                   00402462     FixedStringBuffers:FixedStringBuffers.dll
+ 0002:00000496       .idata$6                   00402496     P6VersionInfo32:P6VersionInfo32.dll
+ 0002:000004b8       .idata$6                   004024b8     Winmm:WINMM.dll
+ 0002:000004e2       .idata$6                   004024e2     kernel32:KERNEL32.dll
+ 0002:000004fe       .idata$6                   004024fe     user32:USER32.dll
+ 0002:00000520       .idata$6                   00402520     MSVCRT:MSVCR120.dll
+ 0003:00000018       _has_cctor                 00403018     MSVCRT:wcrtexe.obj
+ 0003:0000001c       _mainret                   0040301c     MSVCRT:wcrtexe.obj
+ 0003:00000020       _managedapp                00403020     MSVCRT:wcrtexe.obj
+ 0003:00000024       _argc                      00403024     MSVCRT:wcrtexe.obj
+ 0003:00000028       _argv                      00403028     MSVCRT:wcrtexe.obj
+ 0003:0000002c       _envp                      0040302c     MSVCRT:wcrtexe.obj
+ 0003:00000030       _argret                    00403030     MSVCRT:wcrtexe.obj
+ 0003:00000034       _startinfo                 00403034     MSVCRT:wcrtexe.obj
+ 0003:00000038       _GS_ExceptionRecord        00403038     MSVCRT:gs_report.obj
+ 0003:00000088       _GS_ContextRecord          00403088     MSVCRT:gs_report.obj
+ 0003:00000354       _DebuggerWasPresent        00403354     MSVCRT:gs_report.obj
+ 0004:00000270       $R000000                   00404270     SoundOff.res
+ 0004:000005d0       $R000360                   004045d0     SoundOff.res
+ 0004:000008b8       $R000648                   004048b8     SoundOff.res
+ 0004:000009e0       $R000770                   004049e0     SoundOff.res
+ 0004:00001288       $R001018                   00405288     SoundOff.res
+ 0004:00002130       $R001EC0                   00406130     SoundOff.res
+ 0004:00002798       $R002528                   00406798     SoundOff.res
+ 0004:00002d00       $R002A90                   00406d00     SoundOff.res
+ 0004:00002d60       $R002AF0                   00406d60     SoundOff.res
+ 0004:00002ff8       $R002D88                   00406ff8     SoundOff.res

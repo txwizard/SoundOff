@@ -1,0 +1,780 @@
+﻿Build started 2017/05/09 03:09:28.
+Project "C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\SoundOff\SoundOff.vcxproj" on node 2 (Build target(s)).
+InitializeBuildStatus:
+  Creating "Release\SoundOff.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt SOff_GetUnicodeStringPointer.C SOff_ReportLoadStringError.C SoundOff.C
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /Qpar- /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt SOff_GetUnicodeStringPointer.C SOff_ReportLoadStringError.C SoundOff.C
+  
+  SOff_GetUnicodeStringPointer.C
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: This translation unit requires stdio.h. It is being included here, with _UNICODE defined.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Auto-including prerequisite header Windows.h, since this file was included independently.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Using Win32 memory allocators withOUT Structured Exception Handling OR calls to SetLastError. 
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: Preprocessor symbol _FORCE_DEBUGGER is UNdefined in a retail build does nothing.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.Hprocessing AnnounceMeToCRT_WW.H, defining LIBSPEC_VERSIONINFOLIB_P6C_API:
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.H     Neither __VERSIONINFOLIB_PVT_P6C__, nor __DATELIB_STATIC_P6C__ is defined. Hence, LIBSPEC_VERSIONINFOLIB_P6C_API maps to __declspec(dllimport).
+  SOff_ReportLoadStringError.C
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: This translation unit requires stdio.h. It is being included here, with _UNICODE defined.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Auto-including prerequisite header Windows.h, since this file was included independently.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Using Win32 memory allocators withOUT Structured Exception Handling OR calls to SetLastError. 
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: Preprocessor symbol _FORCE_DEBUGGER is UNdefined in a retail build does nothing.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.Hprocessing AnnounceMeToCRT_WW.H, defining LIBSPEC_VERSIONINFOLIB_P6C_API:
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.H     Neither __VERSIONINFOLIB_PVT_P6C__, nor __DATELIB_STATIC_P6C__ is defined. Hence, LIBSPEC_VERSIONINFOLIB_P6C_API maps to __declspec(dllimport).
+SOff_ReportLoadStringError.C(18): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(533) : see declaration of '_swprintf'
+  SoundOff.C
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: This translation unit requires stdio.h. It is being included here, with _UNICODE defined.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Auto-including prerequisite header Windows.h, since this file was included independently.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H CRT header stdio.h is included, which is taken as sanctioning the CRT library.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     TCHAR.H auto-included, to establish the generic TCHAR mappings that make writing code that supports ANSI, MBCS, and Unicode so much easier
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     CharPosMacros_WW.H auto-included, to define special purpose macros used herein, and available for general use
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Using Win32 memory allocators withOUT Structured Exception Handling OR calls to SetLastError. 
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H Since neither FormatMsgs_WW.H, nor P6CStringLib1.H is included in this translation unit,
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\TcharMacros_WW.H     macros FormatMsgForConsole_WW and FormatMsgForMsgbox_WW are disabled.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\StandardMacros_DAG.H: Preprocessor symbol _FORCE_DEBUGGER is UNdefined in a retail build does nothing.
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.Hprocessing AnnounceMeToCRT_WW.H, defining LIBSPEC_VERSIONINFOLIB_P6C_API:
+  C:\Users\DAVE\Documents\Programming\Visual_Studio_6\INCLUDE\AnnounceMeToCRT_WW.H     Neither __VERSIONINFOLIB_PVT_P6C__, nor __DATELIB_STATIC_P6C__ is defined. Hence, LIBSPEC_VERSIONINFOLIB_P6C_API maps to __declspec(dllimport).
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /fo"Release\SoundOff.res" /n SoundOff.rc 
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.exe" /VERBOSE /INCREMENTAL:NO FixedStringBuffers.lib P6VersionInfo32.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.pdb" /MAP /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.lib" /MACHINE:X86 /SAFESEH Release\SoundOff.res
+  Release\SOff_GetUnicodeStringPointer.obj
+  Release\SOff_ReportLoadStringError.obj
+  Release\SoundOff.obj
+  Microsoft (R) Incremental Linker Version 12.00.31101.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.exe" /VERBOSE /INCREMENTAL:NO FixedStringBuffers.lib P6VersionInfo32.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.pdb" /MAP /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.lib" /MACHINE:X86 /SAFESEH Release\SoundOff.res 
+  Release\SOff_GetUnicodeStringPointer.obj 
+  Release\SOff_ReportLoadStringError.obj 
+  Release\SoundOff.obj 
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:uuid.lib
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+        Found __imp__FB_GetlpResourceBufferW
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __imp__FB_FormatMessageW
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __imp__FB_FormatMessage2W
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __imp__FB_LoadStringW
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __imp__FB_GetSprintFBufferW
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __IMPORT_DESCRIPTOR_FixedStringBuffers
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+        Found FixedStringBuffers_NULL_THUNK_DATA
+          Referenced in FixedStringBuffers.lib(FixedStringBuffers.dll)
+          Loaded FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+        Found __imp__AnnounceMeToCRTPNW_WW@12
+          Referenced in SoundOff.obj
+          Loaded P6VersionInfo32.lib(P6VersionInfo32.dll)
+        Found __IMPORT_DESCRIPTOR_P6VersionInfo32
+          Referenced in P6VersionInfo32.lib(P6VersionInfo32.dll)
+          Loaded P6VersionInfo32.lib(P6VersionInfo32.dll)
+        Found P6VersionInfo32_NULL_THUNK_DATA
+          Referenced in P6VersionInfo32.lib(P6VersionInfo32.dll)
+          Loaded P6VersionInfo32.lib(P6VersionInfo32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+        Found __imp__PlaySoundW@12
+          Referenced in SoundOff.obj
+          Loaded Winmm.lib(WINMM.dll)
+        Found __IMPORT_DESCRIPTOR_WINMM
+          Referenced in Winmm.lib(WINMM.dll)
+          Loaded Winmm.lib(WINMM.dll)
+        Found WINMM_NULL_THUNK_DATA
+          Referenced in Winmm.lib(WINMM.dll)
+          Loaded Winmm.lib(WINMM.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__GetLastError@0
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetLastError@4
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+        Found __imp__LoadStringW@16
+          Referenced in SOff_GetUnicodeStringPointer.obj
+          Loaded user32.lib(USER32.dll)
+        Found __IMPORT_DESCRIPTOR_USER32
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+        Found USER32_NULL_THUNK_DATA
+          Referenced in user32.lib(USER32.dll)
+          Loaded user32.lib(USER32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+        Found @__security_check_cookie@4
+          Referenced in SOff_GetUnicodeStringPointer.obj
+          Loaded MSVCRT.lib(secchk.obj)
+        Found __imp___swprintf
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__wprintf
+          Referenced in SOff_ReportLoadStringError.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _wmainCRTStartup
+          Loaded MSVCRT.lib(wcrtexe.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRT.lib(secchk.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found ___security_cookie
+          Referenced in MSVCRT.lib(secchk.obj)
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found __IMPORT_DESCRIPTOR_MSVCR120
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___CxxSetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(unhandld.obj)
+        Found __XcptFilter
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __amsg_exit
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __wsetargv
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(wdllargv.obj)
+        Found __imp____wgetmainargs
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp____set_app_type
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __IsNonwritableInCurrentImage
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(pesect.obj)
+        Found __imp__exit
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___exit
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___cexit
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___security_init_cookie
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found __matherr
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(merr.obj)
+        Found _atexit
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(atonexit.obj)
+        Found __RTC_Initialize
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(initsect.obj)
+        Found __imp___configthreadlocale
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __setdefaultprecision
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(fp8.obj)
+        Found __imp____setusermatherr
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __initterm_e
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __initterm
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __SEH_epilog4
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(sehprolg4.obj)
+        Found __except_handler4
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Referenced in MSVCRT.lib(pesect.obj)
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(sehprolg4.obj)
+          Loaded MSVCRT.lib(chandler4gs.obj)
+        Found ___globallocalestatus
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(xthdloc.obj)
+        Found __commode
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(xncommod.obj)
+        Found __dowildcard
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(wildcard.obj)
+        Found __newmode
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(_newmode.obj)
+        Found __imp____winitenv
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___native_startup_state
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(natstart.obj)
+        Found __fmode
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(xtxtmode.obj)
+        Found __imp___fmode
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___commode
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___xi_a
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Loaded MSVCRT.lib(cinitexe.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+        Found __crt_debugger_hook
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___crtUnhandledException
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___crtTerminateProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found MSVCR120_NULL_THUNK_DATA
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "void __cdecl terminate(void)" (?terminate@@YAXXZ)
+          Referenced in MSVCRT.lib(unhandld.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___crtSetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(unhandld.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __lock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __unlock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___calloc_crt
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found ___dllonexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___onexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __invoke_watson
+          Referenced in MSVCRT.lib(fp8.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __controlfp_s
+          Referenced in MSVCRT.lib(fp8.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRT.lib(chandler4gs.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+        Found __imp__EncodePointer@4
+          Referenced in MSVCRT.lib(wcrtexe.obj)
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__DecodePointer@4
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+      Discarded '.rdata' from (null)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(initsect.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(initsect.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(initsect.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(initsect.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(initsect.obj)
+      Discarded _NtCurrentTeb from MSVCRT.lib(wcrtexe.obj)
+      Discarded _check_managed_app from MSVCRT.lib(wcrtexe.obj)
+      Discarded ___report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded ___report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded ___report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded __invoke_watson_if_error from MSVCRT.lib(fp8.obj)
+  Generating code
+  Finished generating code
+  
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\MSVCRT.lib:
+        Found __load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\FixedStringBuffers.lib:
+      Searching C:\Users\DAVE\Documents\Programming\Visual_Studio_6\LIB\P6VersionInfo32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\Winmm.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{3AC30ED5-5EF9-4179-B2AE-B2FDAC24CFEE}.tmp"
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{A7AD1DE5-A403-4BFE-A5C9-9C29172481BC}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17298
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\DAVE\AppData\Local\Temp\lnk{3AC30ED5-5EF9-4179-B2AE-B2FDAC24CFEE}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\DAVE\AppData\Local\Temp\lnk{A7AD1DE5-A403-4BFE-A5C9-9C29172481BC}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\DAVE\AppData\Local\Temp\lnk{AD411D84-7C58-4BB5-90A3-1F1B211EA9C6}.tmp"
+   /readonly
+   "Release\SoundOff.res"
+   "C:\Users\DAVE\AppData\Local\Temp\lnk{3AC30ED5-5EF9-4179-B2AE-B2FDAC24CFEE}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 12.00.21005.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:VERSION, name:1, language:0x0409, flags:0x30, size:860
+  adding resource. type:ICON, name:1, language:0x0409, flags:0x1010, size:744
+  adding resource. type:ICON, name:2, language:0x0409, flags:0x1010, size:296
+  adding resource. type:ICON, name:3, language:0x0409, flags:0x1010, size:2216
+  adding resource. type:ICON, name:4, language:0x0409, flags:0x1010, size:3752
+  adding resource. type:ICON, name:5, language:0x0409, flags:0x1010, size:1640
+  adding resource. type:ICON, name:6, language:0x0409, flags:0x1010, size:1384
+  adding resource. type:GROUP_ICON, name:101, language:0x0409, flags:0x1030, size:90
+  adding resource. type:STRING, name:7, language:0x0409, flags:0x1030, size:662
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+  
+  Unused libraries:
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\OLDNAMES.lib
+  
+  
+  Processing /ORDER options
+      External code objects not listed in the /ORDER file:
+  
+          _imp____setusermatherr		; MSVCRT.lib(MSVCR120.dll)
+          _imp__FB_FormatMessageW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          _imp___initterm		; MSVCRT.lib(MSVCR120.dll)
+          _setdefaultprecision		; MSVCRT.lib(fp8.obj)
+          _calloc_crt		; MSVCRT.lib(MSVCR120.dll)
+          _imp___swprintf		; MSVCRT.lib(MSVCR120.dll)
+          _imp___onexit		; MSVCRT.lib(MSVCR120.dll)
+          FB_GetlpResourceBufferW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          __crtSetUnhandledExceptionFilter		; MSVCRT.lib(MSVCR120.dll)
+          __raise_securityfailure		; MSVCRT.lib(gs_report.obj)
+          @__security_check_cookie@4		; MSVCRT.lib(secchk.obj)
+          IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          __dyn_tls_init_callback
+          _imp___initterm_e		; MSVCRT.lib(MSVCR120.dll)
+          __security_cookie		; MSVCRT.lib(gs_cookie.obj)
+          _imp__IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          _imp___commode		; MSVCRT.lib(MSVCR120.dll)
+          FB_LoadStringW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          _RTC_Terminate		; MSVCRT.lib(initsect.obj)
+          __setusermatherr		; MSVCRT.lib(MSVCR120.dll)
+          _imp___controlfp_s		; MSVCRT.lib(MSVCR120.dll)
+          _imp__PlaySoundW@12		; Winmm.lib(WINMM.dll)
+          FB_FormatMessageW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+          _cexit		; MSVCRT.lib(MSVCR120.dll)
+          atexit		; MSVCRT.lib(atonexit.obj)
+          _imp___lock		; MSVCRT.lib(MSVCR120.dll)
+          wmainCRTStartup		; MSVCRT.lib(wcrtexe.obj)
+          _imp____crtSetUnhandledExceptionFilter		; MSVCRT.lib(MSVCR120.dll)
+          _except_handler4		; MSVCRT.lib(chandler4gs.obj)
+          LoadStringW@16		; user32.lib(USER32.dll)
+          SetLastError@4		; kernel32.lib(KERNEL32.dll)
+          __security_cookie_complement		; MSVCRT.lib(gs_cookie.obj)
+          _lock		; MSVCRT.lib(MSVCR120.dll)
+          _imp____set_app_type		; MSVCRT.lib(MSVCR120.dll)
+          _imp____dllonexit		; MSVCRT.lib(MSVCR120.dll)
+          _imp__FB_LoadStringW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+          ?terminate@@YAXXZ		; MSVCRT.lib(MSVCR120.dll)
+          _exit		; MSVCRT.lib(MSVCR120.dll)
+          GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          _initterm		; MSVCRT.lib(MSVCR120.dll)
+          _imp__IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          _imp___exit		; MSVCRT.lib(MSVCR120.dll)
+          ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(unhandld.obj)
+          FB_FormatMessage2W		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          __crtTerminateProcess		; MSVCRT.lib(MSVCR120.dll)
+          __report_securityfailure		; MSVCRT.lib(gs_report.obj)
+          __atonexitinit		; MSVCRT.lib(atonexit.obj)
+          _imp__QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          __report_securityfailureEx		; MSVCRT.lib(gs_report.obj)
+          ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(unhandld.obj)
+          _imp__GetLastError@0		; kernel32.lib(KERNEL32.dll)
+          _FindPESection		; MSVCRT.lib(pesect.obj)
+          _imp___crt_debugger_hook		; MSVCRT.lib(MSVCR120.dll)
+          _configthreadlocale		; MSVCRT.lib(MSVCR120.dll)
+          _imp____crtUnhandledException		; MSVCRT.lib(MSVCR120.dll)
+          _crt_debugger_hook		; MSVCRT.lib(MSVCR120.dll)
+          ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(unhandld.obj)
+          _imp__exit		; MSVCRT.lib(MSVCR120.dll)
+          _ValidateImageBase		; MSVCRT.lib(pesect.obj)
+          __wgetmainargs		; MSVCRT.lib(MSVCR120.dll)
+          _imp___invoke_watson		; MSVCRT.lib(MSVCR120.dll)
+          AnnounceMeToCRTPNW_WW@12		; P6VersionInfo32.lib(P6VersionInfo32.dll)
+          _imp___except_handler4_common		; MSVCRT.lib(MSVCR120.dll)
+          _imp__FB_GetSprintFBufferW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          _imp__AnnounceMeToCRTPNW_WW@12		; P6VersionInfo32.lib(P6VersionInfo32.dll)
+          _imp__LoadStringW@16		; user32.lib(USER32.dll)
+          _onexit		; MSVCRT.lib(atonexit.obj)
+          NtCurrentTeb		; MSVCRT.lib(wcrtexe.obj)
+          _imp__SetLastError@4		; kernel32.lib(KERNEL32.dll)
+          _invoke_watson_if_error		; MSVCRT.lib(fp8.obj)
+          __crtUnhandledException		; MSVCRT.lib(MSVCR120.dll)
+          _imp__GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z		; MSVCRT.lib(unhandld.obj)
+          __CxxSetUnhandledExceptionFilter		; MSVCRT.lib(unhandld.obj)
+          QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          _wsetargv		; MSVCRT.lib(wdllargv.obj)
+          FB_GetSprintFBufferW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          _imp____winitenv		; MSVCRT.lib(MSVCR120.dll)
+          _unlock		; MSVCRT.lib(MSVCR120.dll)
+          GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          _imp__FB_FormatMessage2W		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          _imp__GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          __set_app_type		; MSVCRT.lib(MSVCR120.dll)
+          _swprintf		; MSVCRT.lib(MSVCR120.dll)
+          ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(unhandld.obj)
+          EncodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _RTC_Initialize		; MSVCRT.lib(initsect.obj)
+          wprintf		; MSVCRT.lib(MSVCR120.dll)
+          _imp____crtTerminateProcess		; MSVCRT.lib(MSVCR120.dll)
+          PlaySoundW@12		; Winmm.lib(WINMM.dll)
+          _imp__wprintf		; MSVCRT.lib(MSVCR120.dll)
+          _controlfp_s		; MSVCRT.lib(MSVCR120.dll)
+          _imp___configthreadlocale		; MSVCRT.lib(MSVCR120.dll)
+          _imp___amsg_exit		; MSVCRT.lib(MSVCR120.dll)
+          GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          DecodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _invoke_watson		; MSVCRT.lib(MSVCR120.dll)
+          __native_startup_state
+          __report_rangecheckfailure		; MSVCRT.lib(gs_report.obj)
+          _imp____wgetmainargs		; MSVCRT.lib(MSVCR120.dll)
+          ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB		; MSVCRT.lib(unhandld.obj)
+          _imp__EncodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _imp_?terminate@@YAXXZ		; MSVCRT.lib(MSVCR120.dll)
+          _imp__DecodePointer@4		; kernel32.lib(KERNEL32.dll)
+          _IsNonwritableInCurrentImage		; MSVCRT.lib(pesect.obj)
+          _amsg_exit		; MSVCRT.lib(MSVCR120.dll)
+          _XcptFilter		; MSVCRT.lib(MSVCR120.dll)
+          _imp___cexit		; MSVCRT.lib(MSVCR120.dll)
+          _imp___XcptFilter		; MSVCRT.lib(MSVCR120.dll)
+          _imp___fmode		; MSVCRT.lib(MSVCR120.dll)
+          __native_startup_lock
+          _except_handler4_common		; MSVCRT.lib(MSVCR120.dll)
+          __onexitbegin
+          _matherr		; MSVCRT.lib(merr.obj)
+          _imp__FB_GetlpResourceBufferW		; FixedStringBuffers.lib(FixedStringBuffers.dll)
+          IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          _imp___calloc_crt		; MSVCRT.lib(MSVCR120.dll)
+          _imp__GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          exit		; MSVCRT.lib(MSVCR120.dll)
+          __dllonexit		; MSVCRT.lib(MSVCR120.dll)
+          _initterm_e		; MSVCRT.lib(MSVCR120.dll)
+          GetLastError@0		; kernel32.lib(KERNEL32.dll)
+          __onexitend
+          _imp___unlock		; MSVCRT.lib(MSVCR120.dll)
+  
+  Finished processing /ORDER options
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessDetach" (?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessAttach" (?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadAttach" (?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ThreadDetach" (?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded "private: static unsigned int const <CrtImplementationDetails>::NativeDll::ProcessVerifier" (?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB) from MSVCRT.lib(unhandld.obj)
+      Discarded _SOff_GetUnicodeStringPointer@12 from SOff_GetUnicodeStringPointer.obj
+      Discarded _FB_GetlpResourceBufferW from FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Discarded _FB_FormatMessageW from FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Discarded _FB_FormatMessage2W from FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Discarded _FB_LoadStringW from FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Discarded _FB_GetSprintFBufferW from FixedStringBuffers.lib(FixedStringBuffers.dll)
+      Discarded _AnnounceMeToCRTPNW_WW@12 from P6VersionInfo32.lib(P6VersionInfo32.dll)
+      Discarded _PlaySoundW@12 from Winmm.lib(WINMM.dll)
+      Discarded _GetLastError@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _SetLastError@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _LoadStringW@16 from user32.lib(USER32.dll)
+      Discarded __swprintf from MSVCRT.lib(MSVCR120.dll)
+      Discarded _wprintf from MSVCRT.lib(MSVCR120.dll)
+      Discarded _NtCurrentTeb from MSVCRT.lib(wcrtexe.obj)
+      Discarded _check_managed_app from MSVCRT.lib(wcrtexe.obj)
+      Discarded ___report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded ___report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded ___report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded ___wgetmainargs from MSVCRT.lib(MSVCR120.dll)
+      Discarded ___set_app_type from MSVCRT.lib(MSVCR120.dll)
+      Discarded _exit from MSVCRT.lib(MSVCR120.dll)
+      Discarded __exit from MSVCRT.lib(MSVCR120.dll)
+      Discarded __cexit from MSVCRT.lib(MSVCR120.dll)
+      Discarded __configthreadlocale from MSVCRT.lib(MSVCR120.dll)
+      Discarded __invoke_watson_if_error from MSVCRT.lib(fp8.obj)
+      Discarded ___setusermatherr from MSVCRT.lib(MSVCR120.dll)
+      Discarded __calloc_crt from MSVCRT.lib(MSVCR120.dll)
+      Discarded _EncodePointer@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _IsDebuggerPresent@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _QueryPerformanceCounter@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCurrentProcessId@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetCurrentThreadId@0 from kernel32.lib(KERNEL32.dll)
+      Discarded _GetSystemTimeAsFileTime@4 from kernel32.lib(KERNEL32.dll)
+      Discarded _DecodePointer@4 from kernel32.lib(KERNEL32.dll)
+  
+      Selected symbol:
+          __matherr from MSVCRT.lib(merr.obj)
+      Replaced symbol(s):
+          __wsetargv from MSVCRT.lib(wdllargv.obj)
+  
+      ICF total savings: 3 bytes
+  
+  Starting pass 2
+       * CIL library *(* CIL module *)
+       SoundOff.res
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       FixedStringBuffers.lib(FixedStringBuffers.dll)
+       P6VersionInfo32.lib(P6VersionInfo32.dll)
+       P6VersionInfo32.lib(P6VersionInfo32.dll)
+       P6VersionInfo32.lib(P6VersionInfo32.dll)
+       Winmm.lib(WINMM.dll)
+       Winmm.lib(WINMM.dll)
+       Winmm.lib(WINMM.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       user32.lib(USER32.dll)
+       MSVCRT.lib(unhandld.obj)
+       MSVCRT.lib(atonexit.obj)
+       MSVCRT.lib(cinitexe.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(merr.obj)
+       MSVCRT.lib(natstart.obj)
+       MSVCRT.lib(pesect.obj)
+       MSVCRT.lib(wcrtexe.obj)
+       MSVCRT.lib(wdllargv.obj)
+       MSVCRT.lib(wildcard.obj)
+       MSVCRT.lib(chandler4gs.obj)
+       MSVCRT.lib(fp8.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(secchk.obj)
+       MSVCRT.lib(sehprolg4.obj)
+       MSVCRT.lib(_newmode.obj)
+       MSVCRT.lib(xncommod.obj)
+       MSVCRT.lib(xtxtmode.obj)
+       MSVCRT.lib(xthdloc.obj)
+       MSVCRT.lib(initsect.obj)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+  Finished pass 2
+  SoundOff.vcxproj -> C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\Release\SoundOff.exe
+FinalizeBuildStatus:
+  Deleting file "Release\SoundOff.tlog\unsuccessfulbuild".
+  Touching "Release\SoundOff.tlog\SoundOff.lastbuildstate".
+Done Building Project "C:\Users\DAVE\Documents\Programming\Visual_Studio_6\EXE\Console\SoundOff\SoundOff\SoundOff.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.20
